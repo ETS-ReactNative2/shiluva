@@ -1,0 +1,32 @@
+body{
+  background-color: #000000 !important;
+}
+
+
+.body-text {
+  font: normal normal normal 18px/32px Raleway;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.head-margin-top {
+  margin-top: 30px !important;
+}
+
+.btn-margin-top {
+  margin-top: 10% !important;
+}
+
+.mdl-layout__header {
+  margin-top: 25px !important;
+  background-color: #000 !important;
+}
+
+.no-pad {
+  padding: none !important;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
