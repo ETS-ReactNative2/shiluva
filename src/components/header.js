@@ -27,7 +27,7 @@ class Landing extends Component{
                                 acumen into striving for optimal and efficient growth 
                                 within the ever evolving and competitive IT spectrum.
                             </RBodyText>
-                            <Button className="btn-margin-top" onClick={()=> window.scrollTo({ top: 2800, behavior: 'smooth'})}>Hire me</Button>
+                            <Button className="btn-margin-top" onClick={()=> window.scrollTo({ top: 2800, behavior: 'smooth'})}>Say Hi</Button>
                         </TitleContainer>
                     </LandingTextHolder>
 
