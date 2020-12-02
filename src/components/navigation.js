@@ -21,7 +21,7 @@ class Nav extends Component{
                     <Header title={<Logo>Shiluva</Logo>}>
                         <Navigation className="nav-margin-top">
                             <a href="#">Home</a>
-                            <a href="#">About</a>
+                            <a href="#About-Section">About</a>
                             <a href="#">Skills</a>
                             <a href="#">Work</a>
                             <a href="#">Testimonials</a>

@@ -67,20 +67,25 @@ export const ProjectsHolder = styled.div`
     width: 60%;
     overflow-x: scroll;
 
+    text-align: ${props => props.justify ? "justify" : "unset"};
 `;
 
 export const ProjectCard = styled.div`
     width: 350px;
     height: 350px;
     margin-right: 5%;
+    width: ${props => props.header ? "270px" : "350px"};
+    height: ${props => props.header ? "54vh" : "350px"};
     
 `;
 
-export const ProjectImage = styled.div`
+export const ProjectImage = styled.img`
     width: inherit;
     height: inherit;
     border-radius: 10px;
     background-color: #FF8FCF;
+    object-fit: cover;
+    text-align: ${props => props.justify ? "justify" : "unset"};
 `;
 
 //contact main container

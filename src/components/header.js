@@ -4,11 +4,18 @@ import styled from 'styled-components';
 import {Title, RBodyText, NavItem} from '../styles/fonts'; 
 import {Button, LandingCarouselHolder, Carousel, ImageHolder, Image} from '../styles/styles';
 import {LandingContainer, LandingTextHolder, TitleContainer} from '../styles/Containers';
-// import Logo from '../Icons/arrow-left.svg'
+import {ProjectCard, ProjectImage} from '../styles/Containers';
+import img1 from '../Images/img1.jpg';
+import img2 from '../Images/img2.jpg';
+import img3 from '../Images/img3.jpg';
+import img4 from '../Images/img4.jpg';
+import img5 from '../Images/img5.jpg';
+import img6 from '../Images/img4.png';
 
 
 
 class Landing extends Component{
+    
     render(){
         return(
             <div className="Landing">
@@ -20,28 +27,32 @@ class Landing extends Component{
                                 acumen into striving for optimal and efficient growth 
                                 within the ever evolving and competitive IT spectrum.
                             </RBodyText>
-                            <Button className="btn-margin-top">Hire me</Button>
+                            <Button className="btn-margin-top" onClick={()=> window.scrollTo({ top: 2800, behavior: 'smooth'})}>Hire me</Button>
                         </TitleContainer>
                     </LandingTextHolder>
 
                     <LandingCarouselHolder>
                         <Carousel>
-                            <ImageHolder>
-                                <Image>01</Image>
-                            </ImageHolder>
-                            <ImageHolder>
-                                <Image>02</Image>
-                            </ImageHolder>
-                            <ImageHolder>
-                                <Image>03</Image>
-                            </ImageHolder>
+
+                            <ProjectCard header>
+                                <ProjectImage src={img2} alt=""></ProjectImage>
+                            </ProjectCard>
+
+                            <ProjectCard header>
+                                <ProjectImage src={img5} alt=""></ProjectImage>
+                            </ProjectCard>
+
+                            <ProjectCard header>
+                                <ProjectImage src={img4} alt=""></ProjectImage>
+                            </ProjectCard>
+
                         </Carousel>
                     </LandingCarouselHolder>
                 </LandingContainer>
 
-                <div style={{backgroundColor: 'yellow'}}>
+                {/* <div style={{backgroundColor: 'yellow'}}>
                     <img src="../Icons/arrow-left.svg"/>
-                </div>
+                </div> */}
             </div>
         );
     }

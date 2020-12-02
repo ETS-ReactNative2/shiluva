@@ -11,15 +11,15 @@ class Testimonial extends Component{
             <div className="Testimonial-Section">
 
                 <TitleHolder>
-                    <Med_Title>What people have to say...</Med_Title>
+                    <Med_Title>What my team mates have to say...</Med_Title>
                 </TitleHolder>
                 
                 <AboutContainer>
                     <TestCard>
                         <TestTextHolder>
                             <IntBodyText>
-                                “Amazing experience i love it a lot. Thanks to the team that dreams
-                                come true, great! Really appreciate there approach”
+                                “You have an amazing eye for design. You accurately capture
+                                every element I design. I'm glad to be working with you.”
                             </IntBodyText>
                         </TestTextHolder>
 
@@ -28,8 +28,8 @@ class Testimonial extends Component{
                                 <TestIcon></TestIcon>
                             </IconHolder>
                             <NameHolder>
-                                <MedIntBodyText>Lassy Chester</MedIntBodyText>
-                                <SmIntBodyText>Art Director</SmIntBodyText>
+                                <MedIntBodyText>Kirsten Fraser</MedIntBodyText>
+                                <SmIntBodyText>Designer</SmIntBodyText>
                             </NameHolder>
                         </TestNameHolder>
                         
@@ -38,8 +38,8 @@ class Testimonial extends Component{
                     <TestCard>
                         <TestTextHolder>
                             <IntBodyText>
-                                “Amazing experience i love it a lot. Thanks to the team that dreams
-                                come true, great! Really appreciate there approach”
+                                “Shiluva is a good team player, a fast learner and has a good eye for design.
+                                I enjoyed working with her, she’s a hard worker and always pays attention to detail .”
                             </IntBodyText>
                         </TestTextHolder>
 
@@ -48,8 +48,8 @@ class Testimonial extends Component{
                                 <TestIcon></TestIcon>
                             </IconHolder>
                             <NameHolder>
-                                <MedIntBodyText>Lassy Chester</MedIntBodyText>
-                                <SmIntBodyText>Art Director</SmIntBodyText>
+                                <MedIntBodyText>Danny Simfukwe</MedIntBodyText>
+                                <SmIntBodyText>Senior Developer</SmIntBodyText>
                             </NameHolder>
                         </TestNameHolder>
                         
@@ -57,8 +57,7 @@ class Testimonial extends Component{
                     <TestCard>
                         <TestTextHolder>
                             <IntBodyText>
-                                “Amazing experience i love it a lot. Thanks to the team that dreams
-                                come true, great! Really appreciate there approach”
+                                “wow! Shiluva writes efficient clean code. It was great working with her”
                             </IntBodyText>
                         </TestTextHolder>
 
@@ -67,8 +66,8 @@ class Testimonial extends Component{
                                 <TestIcon></TestIcon>
                             </IconHolder>
                             <NameHolder>
-                                <MedIntBodyText>Lassy Chester</MedIntBodyText>
-                                <SmIntBodyText>Art Director</SmIntBodyText>
+                                <MedIntBodyText>Lwazi Nontuma</MedIntBodyText>
+                                <SmIntBodyText>Designer</SmIntBodyText>
                             </NameHolder>
                         </TestNameHolder>
                         

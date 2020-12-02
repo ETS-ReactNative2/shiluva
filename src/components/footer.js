@@ -17,8 +17,7 @@ class Footer extends Component{
 
                         <FooterRight>
                             <FooterText>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec erat eros,
-                                congue in tortor eu, placerat interdum mauris. Pellentesque 
+                                The information contanined on this site is all true.
                             </FooterText>
                         </FooterRight>
                     </FooterHolder>
