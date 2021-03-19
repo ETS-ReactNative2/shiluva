@@ -32,6 +32,8 @@ export const LangIcon = styled.div`
     border-radius: 50%;
     background-color: #00C2BA;
     margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
 `;
 
 
@@ -64,6 +66,8 @@ export const TestIcon = styled.div`
     height: 40px;
     border-radius: 50%;
     background-color: #fff;
+    display: flex;
+    justify-content: space-around;
 `;
 
 export const NameHolder = styled.div`

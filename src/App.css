@@ -32,6 +32,27 @@ body{
   transform: scale(2);
 }
 
+.LangIcons{
+  color: #ffffff;
+  margin: auto;
+  transform: scale(1.6);
+
+}
+
+.TestIcons{
+  color: #00C2BA;
+  margin: auto;
+  transform: scale(2);
+}
+
+.Testimonial-Section{
+  margin-top: 15%;
+}
+
+.section-margin-top{
+  margin-top: 5%;
+}
+
 /* @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

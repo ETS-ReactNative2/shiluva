@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import {Med_Title, IntBodyText, MedIntBodyText, SmIntBodyText} from '../styles/fonts';
 import {AboutContainer, TitleHolder} from '../styles/Containers';
 import {TestCard, TestTextHolder, IconHolder, TestNameHolder, TestIcon, NameHolder} from '../styles/styles';
+import {IoPersonSharp, IoPerson} from 'react-icons/io5';
 
 
 class Testimonial extends Component{
@@ -25,8 +26,11 @@ class Testimonial extends Component{
 
                         <TestNameHolder>
                             <IconHolder>
-                                <TestIcon></TestIcon>
+                                <TestIcon>
+                                    <IoPerson className="TestIcons"/>
+                                </TestIcon>
                             </IconHolder>
+
                             <NameHolder>
                                 <MedIntBodyText>Kirsten Fraser</MedIntBodyText>
                                 <SmIntBodyText>Designer</SmIntBodyText>
@@ -45,8 +49,11 @@ class Testimonial extends Component{
 
                         <TestNameHolder>
                             <IconHolder>
-                                <TestIcon></TestIcon>
+                                <TestIcon>
+                                    <IoPerson className="TestIcons"/>
+                                </TestIcon>
                             </IconHolder>
+
                             <NameHolder>
                                 <MedIntBodyText>Danny Simfukwe</MedIntBodyText>
                                 <SmIntBodyText>Senior Developer</SmIntBodyText>
@@ -63,8 +70,11 @@ class Testimonial extends Component{
 
                         <TestNameHolder>
                             <IconHolder>
-                                <TestIcon></TestIcon>
+                                <TestIcon>
+                                    <IoPerson className="TestIcons"/>
+                                </TestIcon>
                             </IconHolder>
+                            
                             <NameHolder>
                                 <MedIntBodyText>Lwazi Nontuma</MedIntBodyText>
                                 <SmIntBodyText>Designer</SmIntBodyText>
