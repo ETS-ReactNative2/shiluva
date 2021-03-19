@@ -2,8 +2,10 @@ import '../App.css';
 import React, {Component} from 'react';
 import {Logo} from '../styles/fonts';
 import {FooterContainer, FooterLeft, FooterRight} from '../styles/Containers';
-import {S_Title, MedBodyText, FooterText, FooterTextLeft} from '../styles/fonts';
+import {S_Title, MedBodyText, FooterText, FooterTextLeft, ExtSmIntBodyText} from '../styles/fonts';
 import {AboutContainer, AboutTitleHolder, AboutContentHolder, FooterHolder} from '../styles/Containers';
+import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { IconContext } from 'react-icons/fa';
 
 class Footer extends Component{
     render(){
@@ -22,13 +24,16 @@ class Footer extends Component{
                         </FooterRight>
                     </FooterHolder>
 
-                    <FooterHolder>
+                    <FooterHolder margin>
                         <FooterLeft>
-                            <FooterTextLeft>&copy; 2020. All rightts reserved.</FooterTextLeft>
+                            <ExtSmIntBodyText>&copy; 2020. All rightts reserved.</ExtSmIntBodyText>
                         </FooterLeft>
 
-                        <FooterRight>
-                            
+                        <FooterRight icons>
+                            <FaGithub className="FooterIcon"/>
+                            <FaInstagram className="FooterIcon"/>
+                            <FaTwitter className="FooterIcon"/>
+                            <FaFacebook className="FooterIcon"/>
                         </FooterRight>
                     </FooterHolder>
                 </FooterContainer>

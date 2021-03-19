@@ -97,7 +97,7 @@ export const ContactDetails = styled.div`
 `;
 
 export const ContactFormHolder = styled.div`
-    width: 65%;
+    width: 60%;
 `;
 
 
@@ -110,8 +110,9 @@ export const FooterContainer = styled.div`
 
 export const FooterHolder = styled(AboutContainer)`
     padding: 0;
-    margin-top: 0;
     width: 100%;
+
+    margin-top: ${props => props.margin ? "40px" : "0"};
 `;
 
 export const FooterLeft = styled.div`
@@ -121,5 +122,8 @@ export const FooterLeft = styled.div`
 `;
 
 export const FooterRight = styled.div`
-    width: 50%;
+    /* width: 50%; */
+    width: ${ props => props.icons ? "20%" : "50%"};
+    display: ${ props => props.icons ? "flex" : "revert"};
+    justify-content: ${ props => props.icons ? "space-around" : "initial"};
 `;

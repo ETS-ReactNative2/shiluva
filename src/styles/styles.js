@@ -10,8 +10,8 @@ export const Button = styled.button`
     width: 160px;
     height: 60px;
     font-size: 20px;
-    font-weight: 600;
-    font-family: Raleway; 
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 0.5px;
     margin-top: 30px;
     line-height: 34px;
@@ -109,12 +109,35 @@ export const Input = styled.input`
     margin-bottom: 3%;
     border-radius: 6px;
     border: 1px solid #FF8FCF;
-
-    font-weight: 400;
+    font-weight: 200;
     font-size: 16px;
-    font-family: Raleway; 
+    font-family: 'Raleway', sans-serif;
     background-color: inherit;
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #FF8FCF;
+        opacity: 0.8;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #FF8FCF;
+        opacity: 0.8;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #FF8FCF;
+        opacity: 0.8;
+    }
+  
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #FF8FCF;
+        opacity: 0.8;
+    }
 `;
+
+
+  
+  
 
 export const TextArea = styled.textarea`
     width: 95%;
@@ -124,11 +147,30 @@ export const TextArea = styled.textarea`
     border-radius: 6px;
     border: 1px solid #FF8FCF;
     min-height: 130px;
-
-    font-weight: 400;
+    font-weight: 200;
     font-size: 16px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     background-color: inherit;
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #FF8FCF;
+        opacity: 0.8;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #FF8FCF;
+        opacity: 0.8;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #FF8FCF;
+        opacity: 0.8;
+    }
+  
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #FF8FCF;
+        opacity: 0.8;
+    }
 `;
 
 export const Submit = styled(Input)`
@@ -138,6 +180,12 @@ export const Submit = styled(Input)`
     border-radius: 5px;
     border: none;
     font-size: 20px;
+    height: 60px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    line-height: 34px;
 `;
 
 

@@ -34,8 +34,8 @@ class Language extends Component{
                     </LangCard>                    
                     <LangCard>
                         <LangIcon></LangIcon>
-                        <Lang>JSX</Lang>
-                        <LangDesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec erat eros, congue in</LangDesc>
+                        <Lang>dart</Lang>
+                        <LangDesc>I am also a mobile developer and have recently started dabbling around with Flutter.</LangDesc>
                     </LangCard>
                 </LangContainer>
             </div>

@@ -14,8 +14,8 @@ class About extends Component{
 
                     <AboutContentHolder>
                         <MedBodyText justify smaller>
-                        I am an assiduous being and bring into life the most incapsulating,
-                        creative ideas within the UI Dev fraternity. This is just a sneak 
+                        I am assiduous, I bring into life the most incapsulating,
+                        creative ideas within the UI Dev space. This is just a sneak 
                         peek of what my geekish innate self can do. My work can be labelled
                         as eccentric but yet poised pertaining to finer details. 
                         </MedBodyText>

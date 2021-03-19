@@ -5,7 +5,7 @@ export const Logo = styled.p`
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 `;
 
@@ -34,6 +34,7 @@ export const Lang = styled(Med_Title)`
   font-size: 22px;
   line-height: 34px;
   margin-bottom: 5%;
+  text-transform: uppercase;
 `;
 
 export const Pink_Med_Title = styled(Med_Title)`
@@ -42,9 +43,9 @@ export const Pink_Med_Title = styled(Med_Title)`
 
 export const NavItem = styled.p`
   color: #fff;
-  font-weight: 300;
-  font-size: 15.5px;
-  font-family: Raleway; 
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
   opacity: 1;
   margin: 0;
 `;
@@ -52,6 +53,7 @@ export const NavItem = styled.p`
 export const RBodyText = styled(NavItem)`
   font-size: 18px;
   line-height: 32px;
+  font-weight: 200;
 `;
 
 export const MedBodyText = styled(RBodyText)`
@@ -60,12 +62,13 @@ export const MedBodyText = styled(RBodyText)`
   letter-spacing: 0px;
   
   text-align: ${props => props.justify ? "justify" : "unset"};
-  font-size: ${props => props.smaller ? "16px" : "19px"};
+  font-size: ${props => props.smaller ? "17px" : "19px"};
 
 `;
 
 export const LangDesc = styled(MedBodyText)`
   color: #00C2BA;
+  font-size: 18px;
 `;
 
 export const IntBodyText = styled(MedBodyText)`
@@ -76,7 +79,7 @@ export const IntBodyText = styled(MedBodyText)`
   margin: 0;
   line-height: 34px;
   color: #fff;
-  font-weight: 300;
+  font-weight: 200;
 `;
 
 export const MedIntBodyText = styled(IntBodyText)`
@@ -95,7 +98,7 @@ export const Contact_Title = styled.p`
   line-height: 64px;
   font-style: normal;
   font-weight: 700;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   margin-bottom: 40%;
 `;
@@ -112,4 +115,8 @@ export const FooterText = styled(SmIntBodyText)`
 
 export const FooterTextLeft = styled(SmIntBodyText)`
   text-align: left;
+`;
+
+export const ExtSmIntBodyText = styled(SmIntBodyText)`
+  font-size: 14px;
 `;
