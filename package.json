@@ -13,8 +13,11 @@
     "react-dom": "^16.13.1",
     "react-icons": "^4.2.0",
     "react-mdl": "^2.1.0",
+    "react-responsive": "^8.2.0",
     "react-scripts": "0.9.x",
-    "styled-components": "^5.2.0"
+    "react-scroll": "^1.8.2",
+    "styled-components": "^5.2.0",
+    "typewriter-effect": "^2.18.0"
   },
   "devDependencies": {},
   "scripts": {

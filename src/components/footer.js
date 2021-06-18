@@ -14,7 +14,7 @@ class Footer extends Component{
                 <FooterContainer>
                     <FooterHolder>
                         <FooterLeft>
-                            <Logo>Shiluva</Logo>
+                            <Logo>Shiluva .</Logo>
                         </FooterLeft>
 
                         <FooterRight>

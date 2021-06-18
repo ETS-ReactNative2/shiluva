@@ -17,20 +17,17 @@ class App extends Component {
     return (
       <div className="App" style={{height: '100px', position: 'relative'}}>      
         <Layout fixedHeader>
-            <Header title={<Logo>Shiluva</Logo>}>
-                <Navigation>
+            <Header title={<Logo>Shiluva .</Logo>}>
+                {/* <Navigation>
                     <a href="#"><NavItem>Home</NavItem></a>
                     <a href="#"><NavItem>About</NavItem></a>
                     <a href="#"><NavItem>Skills</NavItem></a>
                     <a href="#"><NavItem>Work</NavItem></a>
                     <a href="#"><NavItem>Testimonials</NavItem></a>
                     <a href="#"><NavItem>Get In Touch</NavItem></a>
-                </Navigation>
+                </Navigation> */}
             </Header>
         </Layout>
-        <div>
-          <p>dfghkj</p>
-        </div>
         <Landing></Landing>
         <About></About>
         <Language></Language>

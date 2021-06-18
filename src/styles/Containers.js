@@ -5,21 +5,23 @@ import styled from 'styled-components';
 export const LandingContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 54vh;
+    height: 75vh;
     width: 100%;
-    margin-top: 12%;
+    margin-top: 5%;
+    /* background-color: green !important; */
 `;
 
 export const LandingTextHolder = styled.div`
-    width: 50%;
+    width: 80%;
     position: relative;
     display: flex;
-    height: 54vh;
+    height: 100%;
+    /* background-color: yellow !important; */
 `;
 
 export const TitleContainer = styled.div`
     position: relative;
-    width: 75%;
+    /* width: 75%; */
     margin: auto;
     position: absolute;
     left: 10%;
@@ -71,11 +73,9 @@ export const ProjectsHolder = styled.div`
 `;
 
 export const ProjectCard = styled.div`
-    width: 350px;
-    height: 350px;
     margin-right: 5%;
     width: ${props => props.header ? "270px" : "350px"};
-    height: ${props => props.header ? "54vh" : "350px"};
+    height: ${props => props.header ? "45vh" : "350px"};
     
 `;
 

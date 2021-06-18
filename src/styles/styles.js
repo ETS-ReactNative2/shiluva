@@ -3,14 +3,14 @@ import styled from 'styled-components';
 
 // button component(s)
 export const Button = styled.button`
-    background: #FF8FCF;
+    background: #c32865;
     border-radius: 5px;
     border: none;
     color: #fff;
     width: 160px;
-    height: 60px;
+    height: 52px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.5px;
     margin-top: 30px;

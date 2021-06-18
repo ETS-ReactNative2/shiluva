@@ -1,12 +1,36 @@
-body{
-  background-color: #000000 !important;
+*{
+  top: 0%;
 }
 
+body{
+  background-color: #1b1b1b !important;
+  position: relative;
+  top: 0%;
+}
 
 .body-text {
   font: normal normal normal 18px/32px Raleway;
   letter-spacing: 0px;
   color: #FFFFFF;
+}
+
+.header-text{
+  height: 40vh;
+  /* background-color: purple !important; */
+  width: 100%;
+  /* text-align: justify; */
+  /* display: flex; */
+  /* justify-content: space-around; */
+}
+
+.header-sub-text{
+  width: 90%;
+  margin-top: 4%;
+  text-align: justify;
+}
+
+.mdl-layout{
+  position: relative !important;
 }
 
 .head-margin-top {
@@ -18,8 +42,14 @@ body{
 }
 
 .mdl-layout__header {
-  margin-top: 25px !important;
-  background-color: #000 !important;
+  background-color: #1b1b1b !important;
+  border: none;
+  box-shadow: none !important;
+  flex-direction: row-reverse !important;
+}
+
+.mdl-layout__header-row{
+  padding: 30px 100px 0 80px !important;
 }
 
 .no-pad {
@@ -51,6 +81,10 @@ body{
 
 .section-margin-top{
   margin-top: 5%;
+}
+
+.logo{
+  text-transform: uppercase;
 }
 
 /* @keyframes App-logo-spin {

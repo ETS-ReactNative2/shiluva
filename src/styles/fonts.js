@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Logo = styled.p`
-  color: #fff;
+  color: ${props => props.white ? "#fff" : "#c32865"};
+  
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  text-transform: ${props => props.lowercase ? "none" : "uppercase"};
 `;
 
 export const Title = styled(Logo)`
@@ -43,17 +45,18 @@ export const Pink_Med_Title = styled(Med_Title)`
 
 export const NavItem = styled.p`
   color: #fff;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
   opacity: 1;
   margin: 0;
 `;
 
 export const RBodyText = styled(NavItem)`
-  font-size: 18px;
   line-height: 32px;
-  font-weight: 200;
+  font-weight: 100;
+
+  font-size: ${props => props.header ? "17px" : "18px"};
 `;
 
 export const MedBodyText = styled(RBodyText)`

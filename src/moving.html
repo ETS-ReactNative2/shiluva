@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <title>
+
+    </title>
+
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: orange;
+        }
+
+        .t1{
+            width: 0ch;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: text 6s steps(16);
+            border-right: solid 2px black;
+        }
+
+        @keyframes text{
+            0%{
+                width: 0ch;
+            }
+
+            20%{
+                width: 19ch;
+            }
+        }
+    </style>
+
+    <body>
+        <p class="t1">I build web interfaces</p>
+        <!-- <p class="t2">I build web portfolios</p>
+        <p class="t3">I build web apps</p> -->
+    </body>
+</html>
