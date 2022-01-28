@@ -16,15 +16,12 @@ body{
 
 .header-text{
   height: 40vh;
-  /* background-color: purple !important; */
   width: 100%;
-  /* text-align: justify; */
-  /* display: flex; */
-  /* justify-content: space-around; */
 }
 
 .header-sub-text{
   width: 90%;
+  color: #888;
   margin-top: 4%;
   text-align: justify;
 }
@@ -48,8 +45,29 @@ body{
   flex-direction: row-reverse !important;
 }
 
+/* ------------------ Small smartphones [325px -> 425px] ---------------- */
+@media only screen and (max-width: 425px){
+  .mdl-layout__header {
+    display: none;
+  }
+
+  .header-text{
+    height: 45vh;
+  }
+
+  .header-sub-text{
+    width: 90%;
+    margin-top: 2%;
+    text-align: justify;
+  }
+
+  .btn-margin-top {
+    margin-top: 20% !important;
+  }
+}
+
 .mdl-layout__header-row{
-  padding: 30px 100px 0 80px !important;
+  padding: 30px 80px 0 80px !important;
 }
 
 .no-pad {

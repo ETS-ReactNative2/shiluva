@@ -17,12 +17,6 @@ import Typewriter from 'typewriter-effect';
 class Landing extends Component{
     
     render(){
-        // var app = document.getElementById('app');
-
-        // var typewriter = new Typewriter(app, {
-        //     loop: true,
-            // delay: 75,
-        //   });
 
         return(
             <div className="Landing">
@@ -43,9 +37,9 @@ class Landing extends Component{
                                         .typeString("applications...")
                                         .pauseFor(3000)
                                         .deleteChars(19)
-                                        .typeString("business portfolios and...")
+                                        .typeString("business portfolios & ...")
                                         .pauseFor(3000)
-                                        .deleteChars(26)
+                                        .deleteChars(25)
                                         .typeString("ios and android apps")
                                         .start();
                                     }}/>
@@ -57,7 +51,7 @@ class Landing extends Component{
                                 <RBodyText justify header>I dedicate my
                                     acumen into striving for optimal and efficient growth 
                                     within the ever evolving and competitive IT spectrum 
-                                    in order to ensure that your products areof the grandest quality.
+                                    in order to ensure the grandest quality software solutions.
                                 </RBodyText>
                             </div>
                             

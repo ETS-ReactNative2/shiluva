@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
+const media = {
+    mobile: '@media(max-width: 425px)'
+}
 
 // button component(s)
 export const Button = styled.button`
@@ -15,6 +18,13 @@ export const Button = styled.button`
     letter-spacing: 0.5px;
     margin-top: 30px;
     line-height: 34px;
+
+    ${media.mobile}{
+        width: 140px;
+        height: 40px;
+        font-size: 15px;
+    }
+   
 `;
 
 
@@ -80,6 +90,12 @@ export const NameHolder = styled.div`
 export const LandingCarouselHolder = styled.div`
     width: 50%;
     height: inherit;
+
+    ${media.mobile}{
+        /* background-color: pink; */
+        width: 100%;
+        position: absolute;
+    }
 `;
 
 export const Carousel = styled.div`

@@ -15,7 +15,7 @@ import Footer from './components/footer';
 class App extends Component {
   render() {
     return (
-      <div className="App" style={{height: '100px', position: 'relative'}}>      
+      <div className="App">      
         <Layout fixedHeader>
             <Header title={<Logo>Shiluva .</Logo>}>
                 {/* <Navigation>

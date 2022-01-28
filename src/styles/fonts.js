@@ -1,14 +1,21 @@
 import styled from 'styled-components';
 
+const media = {
+  mobile: '@media(max-width: 425px)'
+}
+
 export const Logo = styled.p`
   color: ${props => props.white ? "#fff" : "#c32865"};
-  
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   text-transform: ${props => props.lowercase ? "none" : "uppercase"};
+
+  ${media.mobile}{
+    font-size: 20px;
+  }
 `;
 
 export const Title = styled(Logo)`
@@ -16,6 +23,11 @@ export const Title = styled(Logo)`
   margin: auto;
   line-height: 64px;
   letter-spacing: 1.7px;
+
+  ${media.mobile}{
+    font-size: 30px;
+    line-height: 50px;
+  }
 `;
 
 export const S_Title = styled(Title)`
@@ -44,7 +56,7 @@ export const Pink_Med_Title = styled(Med_Title)`
 `;
 
 export const NavItem = styled.p`
-  color: #fff;
+  color: #888;
   font-weight: 100;
   font-size: 16px;
   font-family: 'poppins', sans-serif;
@@ -55,8 +67,12 @@ export const NavItem = styled.p`
 export const RBodyText = styled(NavItem)`
   line-height: 32px;
   font-weight: 100;
-
   font-size: ${props => props.header ? "17px" : "18px"};
+
+  ${media.mobile}{
+    font-size: 14px;
+    line-height: 25px;
+  }
 `;
 
 export const MedBodyText = styled(RBodyText)`

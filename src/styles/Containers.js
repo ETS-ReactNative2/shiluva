@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
+const media = {
+    mobile: '@media(max-width: 425px)'
+}
 
 //header main container
 export const LandingContainer = styled.div`
@@ -8,7 +11,11 @@ export const LandingContainer = styled.div`
     height: 75vh;
     width: 100%;
     margin-top: 5%;
-    /* background-color: green !important; */
+
+    ${media.mobile}{
+        height: 90vh;
+        margin-top: 0;
+    }
 `;
 
 export const LandingTextHolder = styled.div`
@@ -17,6 +24,13 @@ export const LandingTextHolder = styled.div`
     display: flex;
     height: 100%;
     /* background-color: yellow !important; */
+
+    ${media.mobile}{
+        width: 100%;
+        z-index: 5;
+        /* background-color: yellow !important; */
+        margin-top: 3%;
+    }
 `;
 
 export const TitleContainer = styled.div`
