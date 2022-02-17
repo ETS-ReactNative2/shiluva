@@ -1,8 +1,8 @@
-*{
+* {
   top: 0%;
 }
 
-body{
+body {
   background-color: #1b1b1b !important;
   position: relative;
   top: 0%;
@@ -11,22 +11,40 @@ body{
 .body-text {
   font: normal normal normal 18px/32px Raleway;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.header-text{
+.header-text {
   height: 40vh;
   width: 100%;
 }
 
-.header-sub-text{
+.header-sub-text {
   width: 90%;
   color: #888;
   margin-top: 4%;
   text-align: justify;
 }
 
-.mdl-layout{
+/* home nav links */
+.Nav-Links {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+/* home nav link text */
+.Nav-Link-Text {
+  font-size: 18px;
+  margin-left: 10px;
+  padding-top: 5px;
+  vertical-align: middle;
+}
+
+.mdl-layout {
   position: relative !important;
 }
 
@@ -46,16 +64,16 @@ body{
 }
 
 /* ------------------ Small smartphones [325px -> 425px] ---------------- */
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
   .mdl-layout__header {
     display: none;
   }
 
-  .header-text{
+  .header-text {
     height: 45vh;
   }
 
-  .header-sub-text{
+  .header-sub-text {
     width: 90%;
     margin-top: 2%;
     text-align: justify;
@@ -66,7 +84,7 @@ body{
   }
 }
 
-.mdl-layout__header-row{
+.mdl-layout__header-row {
   padding: 30px 80px 0 80px !important;
 }
 
@@ -74,34 +92,33 @@ body{
   padding: none !important;
 }
 
-.FooterIcon{
-  color: #FF8FCF;
+.FooterIcon {
+  color: #ff8fcf;
   margin-left: 10px;
   transform: scale(2);
 }
 
-.LangIcons{
+.LangIcons {
   color: #ffffff;
   margin: auto;
   transform: scale(1.6);
-
 }
 
-.TestIcons{
-  color: #00C2BA;
+.TestIcons {
+  color: #00c2ba;
   margin: auto;
   transform: scale(2);
 }
 
-.Testimonial-Section{
+.Testimonial-Section {
   margin-top: 15%;
 }
 
-.section-margin-top{
+.section-margin-top {
   margin-top: 5%;
 }
 
-.logo{
+.logo {
   text-transform: uppercase;
 }
 
