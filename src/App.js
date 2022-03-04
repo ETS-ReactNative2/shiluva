@@ -12,19 +12,28 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ContactUs from "./components/contact";
+import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Layout fixedHeader>
-          <Header title={<Logo>Shiluva .</Logo>}> </Header>
+          <Header
+            title={
+              <Link className="Nav-Links" to="/">
+                <Logo>Shiluva .</Logo>
+              </Link>
+            }
+          >
+            {" "}
+          </Header>
         </Layout>
 
         <Routes>
           <Route path="/" exact element={<Landing />} />
           <Route path="about" element={<About />} />
-          <Route path="contactus" element={<Contact />} />
+          <Route path="contact-me" element={<Contact />} />
         </Routes>
       </div>
     );

@@ -44,11 +44,12 @@ export const AboutContainer = styled(LandingContainer)`
   width: 90%;
   padding: 1% 5%;
   height: unset;
-  margin-top: 10%;
+  margin-top: 7%;
 `;
 
 export const AboutTitleHolder = styled.div`
-  width: 52%;
+  width: 48%;
+  /* background-color: yellow; */
 `;
 
 export const AboutContentHolder = styled.div`
@@ -69,16 +70,17 @@ export const TitleHolder = styled(AboutContainer)`
 
 //projects main container
 export const ProjectsContainer = styled(AboutContainer)`
-  margin-top: 5%;
+  margin-top: 15%;
 `;
 
 export const ProTitleHolder = styled.div`
-  width: 25%;
+  width: 40%;
+  /* background-color: yellow; */
 `;
 
 export const ProjectsHolder = styled.div`
   display: flex;
-  width: 60%;
+  width: 80%;
   overflow-x: scroll;
 
   text-align: ${(props) => (props.justify ? "justify" : "unset")};
@@ -87,10 +89,11 @@ export const ProjectsHolder = styled.div`
 export const ProjectCard = styled.div`
   margin-right: 5%;
   width: ${(props) => (props.header ? "270px" : "350px")};
-  height: ${(props) => (props.header ? "45vh" : "350px")};
+  height: ${(props) => (props.header ? "45vh" : "300px")};
 `;
 
 export const ProjectImage = styled.img`
+  opacity: 0.9;
   width: inherit;
   height: inherit;
   border-radius: 10px;

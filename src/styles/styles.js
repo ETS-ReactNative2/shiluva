@@ -81,14 +81,14 @@ export const LangIcon = styled.div`
 //testimonial card
 export const TestCard = styled.div`
   width: 300px;
-  height: 300px;
+  height: 250px;
   background-color: #00c2ba;
   padding: 30px 40px;
   border-radius: 6px;
 `;
 
 export const TestTextHolder = styled.div`
-  min-height: 220px;
+  min-height: 190px;
   background-color: #00c2ba;
 `;
 
@@ -230,18 +230,23 @@ export const TextArea = styled.textarea`
 `;
 
 export const Submit = styled(Input)`
-  width: 30%;
-  color: #fff;
+  width: 25%;
+  color: #c32865;
   background: #ff8fcf;
   border-radius: 5px;
   border: none;
   font-size: 20px;
   height: 60px;
-  font-weight: 600;
+  font-weight: 400;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.5px;
   margin-top: 30px;
   line-height: 34px;
+
+  &:hover {
+    color: #ff8fcf;
+    background: #c32865;
+  }
 `;
 
 //contact details
