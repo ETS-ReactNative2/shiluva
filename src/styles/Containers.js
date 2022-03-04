@@ -117,7 +117,7 @@ export const ContactFormHolder = styled.div`
 export const FooterContainer = styled.div`
   margin-top: 3%;
   background-color: #1a1a1a;
-  padding: 5%;
+  padding: 4% 5%;
 `;
 
 export const FooterHolder = styled(AboutContainer)`

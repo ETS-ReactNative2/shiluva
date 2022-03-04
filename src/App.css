@@ -96,6 +96,7 @@ body {
   color: #ff8fcf;
   margin-left: 10px;
   transform: scale(2);
+  cursor: pointer;
 }
 
 .LangIcons {
