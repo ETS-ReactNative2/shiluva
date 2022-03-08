@@ -15,7 +15,7 @@ import {
   AboutContentHolder,
   FooterHolder,
 } from "../styles/Containers";
-import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { IconContext } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -52,6 +52,13 @@ class Footer extends Component {
                 }
               />
 
+              <FaLinkedin
+                className="FooterIcon"
+                onClick={() =>
+                  window.open("https://www.linkedin.com/in/shiluva-hlungwani-105aa716b/")
+                }
+              />
+
               <FaInstagram
                 className="FooterIcon"
                 onClick={() =>
@@ -66,12 +73,12 @@ class Footer extends Component {
                   )
                 }
               />
-              <FaFacebook
+              {/* <FaFacebook
                 className="FooterIcon"
                 onClick={() =>
                   window.open("https://www.facebook.com/shiluva.hlungwani.9/")
                 }
-              />
+              /> */}
             </FooterRight>
           </FooterHolder>
         </FooterContainer>

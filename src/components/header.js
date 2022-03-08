@@ -31,7 +31,6 @@ import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import { Link } from "react-router-dom";
 import { Home, Info, Send, Mail } from "react-feather";
 import "../styles/cat.css";
-import ScrollThingie from "./gallery";
 
 class Landing extends Component {
   render() {
@@ -136,8 +135,6 @@ class Landing extends Component {
             </div>
           </LandingCarouselHolder>
         </LandingContainer>
-
-        {/* <ScrollThingie></ScrollThingie> */}
 
         {/* <div style={{backgroundColor: 'yellow'}}>
                     <img src="../Icons/arrow-left.svg"/>

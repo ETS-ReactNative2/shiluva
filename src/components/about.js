@@ -23,18 +23,18 @@ class About extends Component {
 
           <AboutContentHolder>
             <MedBodyText justify smaller className=" ">
-              I am assiduous, I bring into life the most incapsulating, creative
-              ideas within the UI Dev space. This is just a sneak peek of what
-              my geekish innate self can do. My work can be labelled as
-              eccentric but yet poised pertaining to finer details.
-              <br></br>I am assiduous, I bring into life the most incapsulating,
-              creative ideas within the UI Dev space. This is just a sneak peek
-              of what my geekish innate self can do. My work can be labelled as
-              eccentric but yet poised pertaining to finer details.<br></br> I
-              am assiduous, I bring into life the most incapsulating, creative
-              ideas within the UI Dev space. This is just a sneak peek of what
-              my geekish innate self can do. My work can be labelled as
-              eccentric but yet poised pertaining to finer details.
+              I am a Front-End Developer located in Johannesburg. I have great passion for UI effects, 
+              animations and creating intuitive, dynamic user experiences. I am a Well-organised person, 
+              a problem solver and an independent employee with high attention to detail. I am interested in 
+              the entire frontend spectrum and working on ambitious projects with positive people, 
+              however, I am quite excited to be dabbling on some backend work as well. <br></br>
+              Since beginning my journey as a freelance developer nearly 6 years ago, 
+              I have done remote work for a few organisations, consulted, and collaborated 
+              with talented people to create web products for both business and consumer use. This is just a sneak peek of what my geekish innate self can do.
+              I create successful responsive websites that are fast, easy to use, and built with best practices. 
+              The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium 
+              web apps, features, animations, and coding interactive layouts.<br></br>
+              I also have full-stack developer experience with popular open-source CMS like WordPress and GoDaddy.
             </MedBodyText>
           </AboutContentHolder>
         </AboutContainer>
